@@ -19,6 +19,7 @@ const TopArtists = () => {
             key={track.key}
             track={track}
             artist={artist}
+            data={data}
           />
         ))}
       </div>

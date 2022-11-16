@@ -23,6 +23,7 @@ const TopCharts = () => {
             song={song}
             activeSong={activeSong}
             isPlaying={isPlaying}
+            data={data}
             i={i}
           />
         ))}
