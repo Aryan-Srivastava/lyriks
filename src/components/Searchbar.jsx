@@ -20,7 +20,7 @@ const Searchbar = () => {
         <input
           autoComplete="off"
           id="seach-field"
-          className="block w-full pl-10 pr-3 py-2 border border-transparent rounded-full bg-white/5 text-white focus:outline-none sm:text-sm"
+          className="block sm:w-[50%] md:w-full w-full pl-10 p-3 border border-transparent rounded-full bg-white/5 text-white focus:outline-none sm:text-sm"
           placeholder="Search all songs"
           type="search"
           value={searchTerm}
